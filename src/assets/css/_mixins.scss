@@ -1,0 +1,33 @@
+@mixin button($theme: DarkGray) {
+  background: $theme;
+  box-shadow: 0 0 1px rgba($theme, .25);
+  color: #fff;
+}
+
+@mixin ellipses($mw, $multi) {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: $mw;
+  display: inline-block;
+  @if $multi {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+  }
+}
+
+@mixin arrow-up($cl,$lft,$rgt) {
+  content: '';
+  width: 0;
+  height: 0;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-bottom: 12px solid $cl;
+  filter: drop-shadow(0px -1px 1px #efecec);
+  position: absolute;
+  top: -12px;
+  right: $rgt;
+  left: $lft;
+}

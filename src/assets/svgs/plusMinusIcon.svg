@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="10px" viewBox="0 0 7 10" version="1.1">
+    <g id="bulk-operations" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="search_user5-copy-26" transform="translate(-1053.000000, -91.000000)" fill="#252525">
+            <g id="Group-15" transform="translate(1053.000000, 91.000000)">
+                <path d="M6.5,3 L4,3 L4,0.5 C4,0.224 3.776,0 3.5,0 C3.224,0 3,0.224 3,0.5 L3,3 L0.5,3 C0.224,3 0,3.224 0,3.5 C0,3.776 0.224,4 0.5,4 L3,4 L3,6.5 C3,6.776 3.224,7 3.5,7 C3.776,7 4,6.776 4,6.5 L4,4 L6.5,4 C6.776,4 7,3.776 7,3.5 C7,3.224 6.776,3 6.5,3 Z" id="Path" fill-rule="nonzero"/>
+                <rect id="Rectangle" x="0" y="8.16666667" width="7" height="1.16666667" rx="0.583333333"/>
+            </g>
+        </g>
+    </g>
+</svg>
